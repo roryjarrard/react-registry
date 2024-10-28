@@ -1,8 +1,10 @@
+import { Link } from 'react-router-dom';
+
 const Header = () => {
     return (
-        <header>
-            <h1>My App</h1>
-        </header>
+        <div>
+            <Link to="/" className="cursor-pointer">NPM Registry</Link>
+        </div>
     );
 };
 
